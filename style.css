@@ -403,7 +403,7 @@ footer {
         display: none;
     }
 
-    .cardapio-item{
+    .cardapio-item {
         border: none;
     }
 
@@ -432,7 +432,7 @@ footer {
         gap: 32px;
     }
 
-    .servico-item{
+    .servico-item {
         height: 260px;
         width: 100%;
         flex-wrap: wrap;
@@ -441,7 +441,7 @@ footer {
     .servico-item p {
         width: 330px;
     }
-    
+
     .contatos-container {
         height: 400px;
         flex-direction: column;
@@ -452,20 +452,54 @@ footer {
     }
 
     .contatos-container .logo {
-        jus
+
     }
 
-    .contato{
+    .contato {
         padding: 0;
     }
 
-    .contato:nth-child(2){
+    .contato:nth-child(2) {
         display: none;
     }
 
-    .copy-right{
+    .copy-right {
         margin-bottom: 64px;
 
     }
 
+}
+
+@media (max-width:768px) {
+    .logo-tony{
+        display: none;
+    }
+
+    .login-user{
+    }
+
+    header{
+        background-image: url(./img/logo-branca.svg);
+        background-repeat: no-repeat;
+        justify-content:  flex-end;
+    }   
+
+    .container-slogan img {
+        display: none;
+    }
+
+    .home {
+        background-image: url(./img/background-pizza.svg);
+        background-color: var(--primary-color);
+        width: 100%;
+    }
+
+    .container-slogan h2 {
+        color: #ffff;
+        font-size: 32px;
+    }
+
+    .container-slogan span {
+        background-color: #ffff;
+    }
 }
